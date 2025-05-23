@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Js</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+    <!-- Bloque 1: Selección de elementos y lectura de valores -->
+    <h1>Seleccion de Elementos</h1>
+
+    <input type="text" id="nombre-1" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <button id="enviar">enviar</button>
+    <p id="resultado"> </p>
+
+    <hr>
+    <!--✅ Bloque 2: Validar campos vacíos en un formulario -->
+    <h1>Validar Campos Vacios de un formulario</h1>
+    <form id="formulario">
+        <input type="email" id="correo" placeholder="Correo">
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+
+
+    <hr>
+    <!-- 🔹  Parte 1:Crear una lista dinámica (ul/li) -->
+    <h1>Crear una lista dinámica</h1>
+
+    <input type="text" id="tarea" placeholder="Escribe una tarea">
+    <button id="agregar">Agregar</button>
+    <ul id="lista-tareas"></ul>
+
+
+
+    <hr>
+    <!-- 🔹 Parte 2: Crear una tabla dinámica -->
+    <h1>Crear una tabla dinámica</h1>
+
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="edad" placeholder="Edad">
+    <button id="registrar">Registrar</button>
+
+    <br><br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo-tabla"></tbody>
+    </table>
+
+
+    <script src="..//modulo-4/ejercicios-DOM.js"></script>
+</body>
+
+</html>
