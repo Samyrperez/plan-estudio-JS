@@ -1,17 +1,67 @@
+#table-register {
+    padding: 5px;
+}
+
 .btn-eliminar {
     background-color: crimson;
-    width: 50px;
-    height: auto;
+    width: 80px;
+    height: 30px;
     color: white;
     border: none;
     padding: 4px 8px;
+    margin-left: 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
-
+.eliminar {
+    background-color: crimson;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.editar {
+    background-color: royalblue;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.guardar {
+    background-color: rgb(37, 241, 98);
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 .btn-editar {
     background-color: royalblue;
-    width: 50px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-eliminar:hover {
+    background-color: darkred;
+}
+#registrar {
+    background-color: royalblue;
+    width: auto;
     height: auto;
     color: white;
     border: none;
@@ -19,6 +69,31 @@
     cursor: pointer;
 }
 
-.btn-eliminar:hover {
-    background-color: darkred;
+#tabla-mascotas tr, th{
+    border: 1px solid black;
+    width: auto;
+    padding: 5px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+input {
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#agregar-producto {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(11, 92, 231);
+    color: aliceblue;
+}
+
+table tr td {
+    border: 1px solid black;
+    
 }

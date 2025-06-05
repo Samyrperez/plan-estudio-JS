@@ -154,16 +154,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const cuerpoTabla = document.querySelector('#cuerpo-tabla');
 
     botonRegistrar.addEventListener('click', () => {
+        // Recibir información de los inputs
         const nombre = inputNombre2.value.trim(); // .trim() elimina espacios en blanco.
         const edad = inputEdad.value.trim();
 
+        // validación para saber si los campos tienen contenido
         if (nombre !== '' && edad !== '') {
+
+            // Creación de elementos dinamicamente
             const fila = document.createElement('tr');
 
             const celdaNombre = document.createElement('td');
             celdaNombre.textContent = nombre;
 
             const celdaEdad = document.createElement('td');
+            // Inserto contenido a la celda
             celdaEdad.textContent = edad;
 
             const celdaAcciones = document.createElement('td');
@@ -181,6 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnEditar.textContent = 'Editar';
             btnEditar.classList.add('btn-editar');
 
+            
             let enModoEdicion = false;
 
             btnEditar.addEventListener('click', () => {
