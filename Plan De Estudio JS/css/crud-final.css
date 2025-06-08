@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background-color: #ebb5ff;
+}
+.container-lista-compras {
+    width: 100%;
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+#formulario-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#formulario-producto input, button {
+    height: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+    padding-left: 10px ;
+}
+button:hover {
+    background-color: rgb(54, 54, 234);
+}
+.container-find {
+    display: flex;
+    justify-content: center;
+}
+.container-find  input{
+    width: 50%;
+    height: 30px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-table{
+    display: flex;
+    justify-content: center;
+
+}
+.container-table table{
+    margin-top: 10px;
+    border: black 1px solid;
+    width: 80%;
+    text-align: center;
+}
+
+

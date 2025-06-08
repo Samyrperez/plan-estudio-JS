@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/crud-final.css">
+    <title>Lista de compras</title>
+
+</head>
+
+<body>
+
+    <!--     
+🧱 Paso 1 – Estructura básica del HTML
+Para comenzar, necesitamos solo:
+
+--Un input para el nombre del producto
+--Otro para la cantidad
+--Otro para el precio
+--Un botón para agregar el producto
+--Un contenedor (como una <table> o <ul>) para mostrar los productos
+--Un input extra para buscar productos por nombre (esto lo usaremos más adelante con .filter()) -->
+
+    <div class="container-lista-compras">
+        <div class="title">
+            <h1>Lista de compras</h1>
+        </div>
+
+        <div id="formulario-producto">
+            <input type="text" id="nombre" placeholder="Nombre del producto">
+            <input type="number" id="cantidad" placeholder="Cantidad">
+            <input type="number" id="precio" placeholder="Precio">
+            <button id="agregar-btn">Agregar</button>
+        </div>
+
+        <div class="container-find">
+            <input type="text" id="busqueda" placeholder="Buscar Producto">
+        </div>
+
+        <div class="container-table">
+            <table id="lista-productos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Se llenará con JavaScript -->
+            </tbody>
+        </table>
+        </div>
+
+        
+    </div>
+
+
+
+    <script src="../final-crud/final-crud.js"></script>
+</body>
+
+</html>
