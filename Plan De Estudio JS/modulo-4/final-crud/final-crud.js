@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 👉 Paso 3: Crear una función agregarProducto(producto) que agregue el producto a un array y lo renderice en la tabla.
     const productos = [];
+    let modoEdicion = false;
 
     function agregarProductos(producto) {
         productos.push(producto);
@@ -76,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <td>${producto.cantidad}</td>
             <td>${producto.precio}</td>
             <td>
+                <button class="editar-btn" data-index="${indexReal}">✏️</button>
                 <button class="eliminar-btn" data-index="${indexReal}">🗑</button>
             </td>
         `;
